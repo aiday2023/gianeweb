@@ -14,7 +14,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://aiday2023.github.io/gianeweb/
 permalink: :lang/:year/:month/:day/:title/
 permalink_defaults:
   lang: en
@@ -116,4 +116,8 @@ theme: shokaX
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/aiday2023/gianeweb.git
+
+  # example, https://github.com/hexojs/hexojs.github.io https://github.com/aiday2023/aiday2023.github.io
+  branch: gh-pages
