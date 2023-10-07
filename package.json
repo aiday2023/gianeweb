@@ -15,7 +15,7 @@
     "esbuild": "^0.19.4",
     "hexo": "^6.3.0",
     "hexo-admin": "^2.3.0",
-    "hexo-algoliasearch": "^0.3.2",
+    "hexo-algoliasearch": "^1.0.0",
     "hexo-autoprefixer": "^0.0.1",
     "hexo-deployer-git": "^4.0.0",
     "hexo-feed": "^1.1.1",
