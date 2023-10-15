@@ -1,0 +1,29 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Balai Bagnet - Preserving Ilocos Culinary Heritage with Authentic Flavors • All posts by \"cebu branch\" tag",
+    "description": "Serving authentic Ilocos delicacies since 2016, Balai Bagnet is now expanding with franchising opportunities in 2024.",
+    "home_page_url": "https://www.gianecollado.com",
+    "items": [
+        {
+            "id": "https://www.gianecollado.com/2023/10/15/branch-information/storeinformation/",
+            "url": "https://www.gianecollado.com/2023/10/15/branch-information/storeinformation/",
+            "title": "storeinformation",
+            "date_published": "2023-10-15T15:26:05.000Z",
+            "content_html": "<h1 id=\"store-information\"><a class=\"markdownIt-Anchor\" href=\"#store-information\">#</a> Store Information</h1>\n<h2 id=\"tuguegarao-city-branch\"><a class=\"markdownIt-Anchor\" href=\"#tuguegarao-city-branch\">#</a> Tuguegarao City Branch</h2>\n<p><strong>Address:</strong> 123 Main Street, Tuguegarao City, Philippines</p>\n<p><strong>Business Hours:</strong></p>\n<ul>\n<li>Monday to Friday: 10:00 AM - 9:00 PM</li>\n<li>Weekends: 11:00 AM - 8:00 PM</li>\n</ul>\n<p>Welcome to our Tuguegarao City branch! We offer an authentic taste of Ilocano cuisine, allowing you to savor the true flavors of Ilocos.</p>\n<h2 id=\"future-expansion\"><a class=\"markdownIt-Anchor\" href=\"#future-expansion\">#</a> Future Expansion</h2>\n<p>We are filled with confidence and anticipation for the future. Over the next two years, we plan to open new branches, spreading the deliciousness of Balai Bagnet to even more locations.</p>\n<p><strong>Upcoming Branches:</strong></p>\n<ol>\n<li>\n<p><strong>Manila Branch</strong></p>\n<ul>\n<li>Expected Opening Date: Late 2023</li>\n<li>Address: 456 Oak Street, Manila, Philippines</li>\n</ul>\n</li>\n<li>\n<p><strong>Cebu Branch</strong></p>\n<ul>\n<li>Expected Opening Date: Early 2024</li>\n<li>Address: 789 Palm Avenue, Cebu, Philippines</li>\n</ul>\n</li>\n</ol>\n<p>We will continue working hard to bring the essence of Ilocos cuisine to even more people! Stay tuned for the grand openings of our new branches!</p>\n",
+            "tags": [
+                "Balai Bagnet",
+                "Tuguegarao City Branch",
+                "Ilocano Cuisine",
+                "Ilocos flavors",
+                "Authentic Taste",
+                "Store Address",
+                "Business Hours",
+                "Future Expansion",
+                "Manila Branch",
+                "Cebu Branch",
+                "Grand Opening",
+                "Philippines Cuisine"
+            ]
+        }
+    ]
+}

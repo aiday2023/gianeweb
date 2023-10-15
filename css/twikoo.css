@@ -6,8 +6,7 @@
  */
 
 .tk-avatar {
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   height: 2.5rem;
   width: 2.5rem;
   overflow: hidden;
@@ -42,15 +41,13 @@
 
 
 .tk-meta-input {
-  display: -ms-flexbox;
   display: flex;
 }
 
 .tk-meta-input .el-input {
   width: auto;
   width: calc((100% - 1rem) / 3); /* Fix Safari */
-  -ms-flex: 1;
-      flex: 1;
+  flex: 1;
 }
 
 .tk-meta-input .el-input + .el-input {
@@ -68,8 +65,7 @@
 
 @media screen and (max-width: 767px) {
   .tk-meta-input {
-    -ms-flex-direction: column;
-        flex-direction: column;
+    flex-direction: column;
   }
 
   .tk-meta-input .el-input {
@@ -84,26 +80,19 @@
 
 
 .tk-submit {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
+  flex-direction: column;
 }
 
 .tk-row {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
+  flex-direction: row;
 }
 
 .tk-col {
-  -ms-flex: 1;
-      flex: 1;
-  display: -ms-flexbox;
+  flex: 1;
   display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
+  flex-direction: column;
 }
 
 .tk-meta-input {
@@ -115,31 +104,24 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
   margin-left: 3.5rem;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: end;
-      justify-content: flex-end;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .tk-row-actions-start {
-  -ms-flex: 1;
-      flex: 1;
-  display: -ms-flexbox;
+  flex: 1;
   display: flex;
-  -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
 }
 
 .tk-submit-action-icon {
-  -ms-flex-item-align: center;
-      align-self: center;
+  align-self: center;
   display: inline-block;
   width: 1.25em;
   line-height: 0;
   margin-right: 10px;
   cursor: pointer;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 .tk-submit-action-icon svg:hover {
@@ -154,8 +136,7 @@
   word-break: break-all;
   color: #ff0000;
   font-size: 0.75em;
-  -ms-flex-negative: 1;
-      flex-shrink: 1;
+  flex-shrink: 1;
 }
 
 .tk-input-image {
@@ -163,8 +144,7 @@
 }
 
 .tk-input {
-  -ms-flex: 1;
-      flex: 1;
+  flex: 1;
 }
 
 .tk-input .el-textarea__inner {
@@ -184,20 +164,16 @@
 
 
 .tk-action {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
 }
 
 .tk-action-link {
   margin-left: 0.5rem;
   color: #409eff;
   text-decoration: none;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
 }
 
 .tk-action-link .tk-action-icon-solid {
@@ -231,20 +207,15 @@
 
 
 .tk-main {
-  -ms-flex: 1;
-      flex: 1;
+  flex: 1;
   width: 0;
 }
 
 .tk-row {
-  -ms-flex: 1;
-      flex: 1;
-  display: -ms-flexbox;
+  flex: 1;
   display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .tk-nick-link {
@@ -272,19 +243,15 @@
 .tk-extras {
   color: #999999;
   font-size: 0.875em;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .tk-extra {
   margin-top: 0.5rem;
   margin-right: 0.75rem;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
 }
 
 .tk-icon.__comment {
@@ -334,10 +301,8 @@
 
 .tk-comment {
   margin-top: 1rem;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
+  flex-direction: row;
   word-break: break-all;
 }
 
@@ -379,12 +344,9 @@
   font-size: 1.25rem;
   font-weight: bold;
   margin-bottom: 1rem;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: baseline;
-      align-items: baseline;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
+  align-items: baseline;
+  justify-content: space-between;
 }
 
 .tk-comments-count.__hidden {
@@ -393,22 +355,16 @@
 
 .tk-comments-container {
   min-height: 10rem;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
+  flex-direction: column;
 }
 
 .tk-comments-no {
-  -ms-flex: 1;
-      flex: 1;
+  flex: 1;
   text-align: center;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .tk-comments-error {
@@ -417,12 +373,9 @@
 }
 
 .tk-icon.__comments {
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
+  align-items: center;
+  justify-content: center;
   vertical-align: sub;
   margin-left: 0.5em;
   height: 0.75em;
@@ -444,36 +397,27 @@
 
 .tk-pagination,
 .tk-pagination-pagers {
-  display: -ms-flexbox;
   display: flex;
 }
 
 .tk-pagination {
   width: 100%;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .tk-pagination-options {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
 }
 
 .tk-pagination-pager {
   width: 2em;
   height: 2em;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
 }
 
@@ -491,7 +435,8 @@
   height: 28px;
   text-align: center;
   -moz-appearance: textfield;
-  appearance: textfield;
+  -webkit-appearance: textfield;
+          appearance: textfield;
 }
 
 .tk-pagination .el-input .el-input__inner::-webkit-inner-spin-button,
@@ -503,12 +448,9 @@
 
 
 .tk-admin-comment {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  -ms-flex-align: center;
-      align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .tk-admin-comment a {
@@ -522,17 +464,13 @@
 
 .tk-admin-comment-filter {
   width: 100%;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: start;
-      justify-content: flex-start;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .tk-admin-comment-filter-keyword {
-  -ms-flex: 1;
-      flex: 1;
+  flex: 1;
 }
 
 .tk-admin-comment-filter-type {
@@ -563,21 +501,15 @@
 .tk-admin-comment-list,
 .tk-admin-comment-item {
   width: 100%;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  -ms-flex-pack: stretch;
-      justify-content: stretch;
+  flex-direction: column;
+  justify-content: stretch;
 }
 
 .tk-admin-comment-meta {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  align-items: center;
+  flex-wrap: wrap;
   margin-bottom: 0.5em;
 }
 
@@ -586,7 +518,6 @@
 }
 
 .tk-admin-actions {
-  display: -ms-flexbox;
   display: flex;
   margin-bottom: 1em;
 }
@@ -611,8 +542,7 @@
 
 .tk-admin-config-item {
   display: grid;
-  -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
   grid-template-columns: 30% 70%;
   margin-top: 1em;
 }
@@ -632,12 +562,9 @@
 }
 
 .tk-admin-config-actions {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
+  align-items: center;
+  justify-content: center;
   margin-top: 1em;
 }
 
@@ -652,10 +579,8 @@
 
 
 .tk-admin-import {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
+  flex-direction: column;
 }
 
 .tk-admin-import-label {
@@ -692,7 +617,8 @@
   pointer-events: all;
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.60);
-  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
   transition: all 0.5s ease;
   visibility: hidden;
 }
@@ -730,12 +656,9 @@
 
 .tk-login,
 .tk-regist {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  -ms-flex-align: center;
-      align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .tk-login-title {
@@ -774,12 +697,9 @@
 
 .tk-panel-title {
   font-size: 1.5rem;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: end;
-      align-items: flex-end;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
 .tk-panel-logout {
@@ -789,7 +709,6 @@
 }
 
 .tk-panel .tk-tabs {
-  display: -ms-flexbox;
   display: flex;
   margin-bottom: 1em;
   border-bottom: 2px solid #c0c4cc;
@@ -900,7 +819,8 @@
 
 .twikoo .el-loading-mask {
   background-color: transparent;
-  backdrop-filter: opacity(20%);
+  -webkit-backdrop-filter: opacity(20%);
+          backdrop-filter: opacity(20%);
 }
 
 .twikoo .el-textarea .el-input__count {
@@ -913,8 +833,7 @@
   background-color: #fff7d0;
   border-left: 0.5rem solid #e7c000;
   color: #6b5900;
-  -ms-flex-item-align: stretch;
-      align-self: stretch;
+  align-self: stretch;
 }
 
 .el-button {
@@ -1455,23 +1374,7 @@
   transition: border-color .2s cubic-bezier(.645, .045, .355, 1)
 }
 
-.el-textarea__inner::-webkit-input-placeholder {
-  color: #C0C4CC
-}
-
-.el-textarea__inner:-ms-input-placeholder {
-  color: #C0C4CC
-}
-
-.el-textarea__inner::-ms-input-placeholder {
-  color: #C0C4CC
-}
-
 .el-textarea__inner::-moz-placeholder {
-  color: #C0C4CC
-}
-
-.el-textarea__inner:-ms-input-placeholder {
   color: #C0C4CC
 }
 
@@ -1504,23 +1407,7 @@
   cursor: not-allowed
 }
 
-.el-textarea.is-disabled .el-textarea__inner::-webkit-input-placeholder {
-  color: #C0C4CC
-}
-
-.el-textarea.is-disabled .el-textarea__inner:-ms-input-placeholder {
-  color: #C0C4CC
-}
-
-.el-textarea.is-disabled .el-textarea__inner::-ms-input-placeholder {
-  color: #C0C4CC
-}
-
 .el-textarea.is-disabled .el-textarea__inner::-moz-placeholder {
-  color: #C0C4CC
-}
-
-.el-textarea.is-disabled .el-textarea__inner:-ms-input-placeholder {
   color: #C0C4CC
 }
 
@@ -1584,9 +1471,7 @@
 
 .el-input .el-input__count {
   height: 100%;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -ms-flex-align: center;
   align-items: center;
   color: #909399;
   font-size: 12px
@@ -1632,23 +1517,7 @@
   display: none
 }
 
-.el-input__inner::-webkit-input-placeholder {
-  color: #C0C4CC
-}
-
-.el-input__inner:-ms-input-placeholder {
-  color: #C0C4CC
-}
-
-.el-input__inner::-ms-input-placeholder {
-  color: #C0C4CC
-}
-
 .el-input__inner::-moz-placeholder {
-  color: #C0C4CC
-}
-
-.el-input__inner:-ms-input-placeholder {
   color: #C0C4CC
 }
 
@@ -1707,23 +1576,7 @@
   cursor: not-allowed
 }
 
-.el-input.is-disabled .el-input__inner::-webkit-input-placeholder {
-  color: #C0C4CC
-}
-
-.el-input.is-disabled .el-input__inner:-ms-input-placeholder {
-  color: #C0C4CC
-}
-
-.el-input.is-disabled .el-input__inner::-ms-input-placeholder {
-  color: #C0C4CC
-}
-
 .el-input.is-disabled .el-input__inner::-moz-placeholder {
-  color: #C0C4CC
-}
-
-.el-input.is-disabled .el-input__inner:-ms-input-placeholder {
   color: #C0C4CC
 }
 
@@ -1963,7 +1816,6 @@
 .OwO {
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 
@@ -1973,7 +1825,6 @@
 
 .OwO .OwO-logo {
   width: 1.125em;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -2003,7 +1854,6 @@
 .OwO .OwO-body .OwO-items {
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
   display: none;
   padding: 10px;
